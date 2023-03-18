@@ -13,7 +13,7 @@ export const questions = [
   {
     id: 3,
     question: "What is my hobby?",
-    answer: "My hobbt is to Coding, Playing games",
+    answer: "My hobby is to Coding, Playing games",
   },
   {
     id: 4,

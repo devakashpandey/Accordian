@@ -12,7 +12,11 @@ const Accordian = () => {
         <h1>ACCORDIAN OF QUES & ANS</h1>
         <div className="inner-div">
           {data.map((currEle) => {
-            return <MyAccordian key={currEle.id} {...currEle} />;
+            return (
+              <div className="accordian">
+                <MyAccordian key={currEle.id} {...currEle} />
+              </div>
+            );
           })}
         </div>
       </div>
